@@ -42,7 +42,7 @@ RUN set -x; \
             python3-setuptools \
             python3-pip \
             unzip \
-        && pip3 install num2words
+        && pip3 install num2words wheel psycogreen
 
 
 RUN curl -o wkhtmltox.tar.xz -SL https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.4/wkhtmltox-0.12.4_linux-generic-amd64.tar.xz \
